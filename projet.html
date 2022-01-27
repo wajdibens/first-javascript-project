@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> projet html_css_js_wajdi </title>
+
+    <link rel="stylesheet" href="projet.css" />
+
+</head>
+
+<body>
+
+    <div class="contenu-global">
+        <h1>Quiz</h1>
+        <form name="QCM">
+
+            <div>
+                <h2>QUESTION 1:</h2><br />
+
+                <h3> Quelle est la capitale de l'Angleterre ?</h3>
+
+                <div>
+                    <input type="radio" name="capitaleAngleterre" id='choice1' value="Manchester" /><em> Manchester</em>
+                    <label for='choice1'></label>
+                    <br>
+                    <input type="radio" name="capitaleAngleterre" id='choice2' value="Londres" /><em> Londres</em>
+                    <label for='choice2'></label>
+                    <br>
+                    <input type="radio" name="capitaleAngleterre" id='choice3' value="Liverpool" /><em> Liverpool</em>
+                    <label for='choice3'></label>
+                </div>
+            </div>
+
+            <div>
+                <h2>QUESTION 2:</h2><br />
+
+                <h3> Quelles sont les villes parmi cette liste se trouvant en Europe ?</h3>
+
+                <div>
+                    <input type="checkbox" name="ville1" id="Rome" value="Rome" /><em>Rome</em>
+                    <label for='Rome'></label>
+                    <br />
+                    <input type="checkbox" name="ville2" id="Marrakech" value="Marrakech" /><em>Marrakech</em>
+                    <label for='Marrakech'></label>
+                    <br />
+                    <input type="checkbox" name="ville3" id="Bruxelles" value="Bruxelles" /><em>Bruxelles</em>
+                    <label for='Bruxelles'></label>
+                    <br />
+                    <input type="checkbox" name="ville4" id="Stockholm" value="Stockholm" /><em>Stockholm</em>
+                    <label for='Stockholm'></label>
+                    <br />
+                    <input type="checkbox" name="ville5" id="Bali" value="Bali" /><em>Bali</em>
+                    <label for='Bali'></label>
+                    <br />
+
+                   
+
+                </div>
+            </div>
+            <i id="demo" class="Breponse"></i>
+            <p id="demo2" class="Mreponse"></p>
+            <!-- <INPUT TYPE="button"NAME="but" VALUE="validez vos choix" onClick="reponse(QCM)">-->
+            <button type="submit" id="btn"  >Validez vos choix</button>
+            <button type="button" id="btn" onclick="Vider()"  >Vider les champs</button>
+
+            <!-- <input type="reset" class="resetClass" value="Rafraichir"> -->
+            
+            
+            <div id="resultat"></div>
+            <div id="resultat2"></div>
+
+        </form>
+    </div>
+    <script src="projet.js"></script>
+</body>
+
+</html>

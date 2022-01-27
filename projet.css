@@ -1,0 +1,94 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.contenu-global {
+  width: 60%;
+  max-width: 800px;
+  height: auto;
+  margin: auto;
+}
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin: 10px;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+  margin: 10px;
+}
+
+p {
+  color: blue;
+  font-size: 30px;
+}
+h1 {
+  color: chocolate;
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+  background-color: burlywood;
+}
+
+h2 {
+  color: blue;
+  font-size: 30px;
+  margin-left: 100px;
+  font-weight: 200;
+  font-style: normal;
+}
+div {
+  background-color: aliceblue;
+  font-size: 20px;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
+button {
+  text-align: center;
+  color: crimson;
+  border: none;
+  outline: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+  padding: 20px 40px;
+  cursor: pointer;
+  font-size: 25px;
+  transition: background-color 0.2s ease-in-out;
+}
+.Breponse {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(24, 252, 4);
+  margin: 150px;
+}
+
+.Mreponse {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(252, 21, 4);
+  margin: 100px;
+}
+
+.resetClass {
+  text-align: center;
+  color: crimson;
+  border: none;
+  outline: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+  padding: 20px 40px;
+  cursor: pointer;
+  font-size: 25px;
+  transition: background-color 0.2s ease-in-out;
+}
